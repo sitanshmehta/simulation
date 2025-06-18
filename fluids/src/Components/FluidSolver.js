@@ -4,7 +4,7 @@ export class FluidSolver {
     constructor(size) {
         this.size = size;
         this.N = size;
-        this.iter = 4;
+        this.iter = 8;
         const N = this.N;
 
         this.s = new Float32Array(N * N); // Temporary array for calculations
@@ -248,4 +248,4 @@ const FluidSimulator = () => {
     );
 };
 
-export default FluidSimulator;
+

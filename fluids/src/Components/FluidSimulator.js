@@ -4,7 +4,7 @@ import { FluidSolver } from './FluidSolver';
 
 const FluidSimulation = () => {
     const canvasRef = useRef(null);
-    const gridSize = 50; // Increased grid size for smoother simulation
+    const gridSize = 60; // Increased grid size for smoother simulation
     const cellSize = 10; // Adjust cell size accordingly
     const simulationRef = useRef(null);
 
